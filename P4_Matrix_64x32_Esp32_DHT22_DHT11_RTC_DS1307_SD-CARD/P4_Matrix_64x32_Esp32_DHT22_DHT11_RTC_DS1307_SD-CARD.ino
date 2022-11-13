@@ -118,7 +118,7 @@ void setup() {
   SD.begin(3);
   SPIFFS.begin();
   rtc.DSbegin();
-  sensor.setup(2);  // pin 13 is DATA
+  sensor.setup(13);  // pin 13 is DATA
   effects.Setup();
   effects.readSttWifi();
   getWifi();

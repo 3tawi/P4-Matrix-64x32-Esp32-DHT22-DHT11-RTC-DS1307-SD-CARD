@@ -338,7 +338,7 @@ void handleserver() {
   server.on("/readtext", handletxt);
   server.on("/readdata", handledata);
   server.on("/mode24h", handleMode24h);
-  server.on("/mywifi", handleWifi);
+  server.on("/Mywifi", handleWifi);
   server.on("/restesp", handleRestesp);
   server.begin();
 }
